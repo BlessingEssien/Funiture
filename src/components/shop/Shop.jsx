@@ -2,7 +2,6 @@ import React from "react";
 import "./shop.scss";
 import { Link } from "react-router-dom";
 
-
 const Shop = () => {
   return (
     <div>
@@ -32,11 +31,10 @@ const Shop = () => {
           <div className="shortby">Short by</div>
           <div className="defrect">Default</div>
         </div>
-        
       </div>
       <div className="addtocart">
-        <div className="line1">      
-        <div className="card1">
+        <div className="line1">
+          <div className="card1">
             <div class="card">
               <img
                 src="/public/images/image1.svg"
@@ -98,9 +96,9 @@ const Shop = () => {
               </div>
             </div>
           </div>
-          </div>
+        </div>
 
-          <div className="nextline">
+        <div className="nextline">
           <div className="card5">
             <div class="card">
               <img
@@ -163,8 +161,8 @@ const Shop = () => {
               </div>
             </div>
           </div>
-          </div>
-          <div className="anotherline">
+        </div>
+        <div className="anotherline">
           <div className="card9">
             <div class="card">
               <img
@@ -227,8 +225,8 @@ const Shop = () => {
               </div>
             </div>
           </div>
-          </div>
-          <div className="lastline">
+        </div>
+        <div className="lastline">
           <div className="card13">
             <div class="card">
               <img
@@ -291,13 +289,49 @@ const Shop = () => {
               </div>
             </div>
           </div>
-          </div>
+        </div>
       </div>
       <div className="nextt">
         <button className="one">1</button>
         <button className="two">2</button>
         <button className="three">3</button>
         <button className="n3xt">next</button>
+      </div>
+      <div className="frame">
+        <div className="items">
+            <div className="ic1">
+          <img src="/public/Icons/trophy 1.svg" alt=""></img>
+          <div className="text">
+            <p>High Quality</p>
+            <p>crafted from top materials</p>
+          </div>
+        </div>
+
+        <div className="ic2">
+          <img src="/public/Icons/guarantee.svg" alt=""></img>
+          <div className="text">
+            <p>Warranty Protection</p>
+            <p>Over 2 years</p>
+          </div>
+        </div>
+
+        <div className="ic3">
+          <img src="/public/Icons/shipping.svg" alt=""></img>
+          <div className="text">
+            <p>Free Shipping</p>
+          <p>Order over 150 $</p>
+          </div>
+          </div>
+
+        <div className="ic4">
+          <img src="/public/Icons/customer.svg" alt=""></img>
+          <div className="text">
+            <p>24 / 7 Support</p>
+          <p>Dedicated support</p>
+          </div>
+          </div>
+        </div>
+      
       </div>
     </div>
   );
