@@ -1,0 +1,100 @@
+.Section1 {
+  .nav {
+    height: 4rem;
+    width: 100%;
+    background: linear-gradient(to bottom, #fff, #fff, #fff);
+    background-repeat: inherit;
+    background-size: 100%;
+padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+    .logo {
+      width: fit-content;
+      height: fit-content;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+
+      .cute{
+        // margin-left: 30px;
+        width: 50px;
+        height: 32px;
+        text-decoration: none;
+        color: #000;
+        background-image: url("/public/images/Meubel\ House_Logos-05.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .text {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+
+    .group {
+      // border: 1px solid black;
+      // margin-right: 167px;
+      display: flex;
+      justify-content: space-between;
+      width: 430px;
+      height: 24px;
+      gap: 75px;
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        border-bottom: 2px dashed transparent;
+        padding-bottom: 1px;
+        color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+      }
+    }
+
+    .icons {
+      display: flex;
+      flex-direction: row;
+      gap: 73px;
+      .Icon1 {
+        width: 28px;
+        height: 28px;
+        background-image: url('/public/images/1st.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .Icon2 {
+        width: 28px;
+        height: 28px;
+        background-image: url('/public/images/icon2.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .Icon3 {
+        width: 28px;
+        height: 28px;
+        background-image: url('/public/images/3rd\ icon.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      .Icon4 {
+        width: 28px;
+        height: 28px;
+        background-image: url('/public/images/4th\ icon\'.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}

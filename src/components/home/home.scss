@@ -1,0 +1,212 @@
+.body {
+  .Setion1 {
+    width: 100%;
+    height: 1007.93px;
+    background-image: url("/public/images/scandinavian-interior-mockup-wall-decal-background\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .sidebox {
+      position: absolute;
+      top: 153px; /* Adjust positioning */
+      left: 670px;
+      z-index: 1;
+      width: 643px;
+      height: 443px;
+      border-radius: 10px;
+      background: #fff3e3;
+
+      .arrival {
+        padding-top: 72px;
+        padding-left: 41px;
+        color: #333;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 3px;
+      }
+      .disc {
+        width: 559px;
+        height: 127px;
+        color: #b88e2f;
+        font-family: Poppins;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 65px;
+        padding-left: 41px;
+      }
+      .sidetext {
+        margin-top: 14px;
+        padding-left: 41px;
+        width: 546px;
+        height: 52px;
+        color: #333;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 133.333% */
+      }
+      .click {
+        display: inline-flex;
+        padding: 25px 72px;
+        align-items: flex-start;
+        gap: 10px;
+        background-color: #b88e2f;
+        margin-left: 41px;
+        margin-top: 46px;
+      }
+    }
+  }
+  .Section2 {
+    width: 1183px;
+    height: 685px;
+    margin: auto;
+    margin-top: -120px;
+    .head {
+      margin: auto;
+      margin-left: 450px;
+      color: #333;
+      font-family: Poppins;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .headtext {
+      margin-top: 1rem;
+      margin: auto;
+      color: #666;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .img {
+      margin-top: 62px;
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      .img1 {
+        width: 782.125px;
+        height: 521px;
+        background-image: url("/public/images/dining.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .img2 {
+        width: 782.125px;
+        height: 521px;
+        background-image: url("/public/images/living.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .img3 {
+        width: 782.125px;
+        height: 521px;
+        background-image: url("/public/images/bedroom.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+
+  .Section3 {
+    .top {
+      color: #3a3a3a;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%; /* 48px */
+      margin-bottom: 32px;
+    }
+    .card-content {
+      padding-left: 16px;
+      padding-top: 7px;
+    }
+    .Header {
+      color: #3a3a3a;
+      font-family: Poppins;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%; /* 28.8px */
+    }
+    .text {
+      color: #898989;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%; /* 24px */
+    }
+    .inlinemoney {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      .first {
+        color: #3a3a3a;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 30px */
+      }
+      .blur {
+        color: #b0b0b0;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        text-decoration: line-through;
+      }
+    }
+    .card {
+      width: 285px;
+      height: 446px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    .products_tp {
+      display: inline-flex;
+      align-items: center;
+      gap: 32px;
+      margin-left: 4rem;
+    }
+    .products_bt {
+      margin-top: 32px;
+      display: inline-flex;
+      align-items: center;
+      gap: 32px;
+      margin-left: 4rem;
+    }
+    .show {
+      margin-bottom: -63px;
+      margin: auto;
+      width: 245px;
+      height: 48px;
+      border: 1px solid #b88e2f;
+      background: #fff;
+
+      .textb {
+        color: #b88e2f;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 24px */
+      }
+    }
+
+  }
+}
